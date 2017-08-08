@@ -13,7 +13,7 @@ namespace Vidly.Controllers
 		// GET: /Movies/
 		public ActionResult Random()
 		{
-			var movie = new Movie() { Name = "Shrek"};
+			var movie = new Movie() { Name = "Teste"};
 			return View(movie);
 		}
 	}
